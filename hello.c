@@ -52,7 +52,7 @@ void createSparseMatrix(int sparseMatrix[][3], int originalMatrix[][N], int rows
 
     // Set the total number of non-zero elements in the sparseMatrix[0][2]
     sparseMatrix[0][2] = nonZeroCount;
-}
+
 
 // Function to print sparse matrix representation
 void printSparseMatrix(int sparseMatrix[][3], int nonZeroCount) {
